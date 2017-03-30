@@ -100,8 +100,6 @@ p {
         max-width: 620px;
     }
     .child_image img {
-        text-align: center;
-        margin: auto;
         width: 288px;
     }
     .child_image h2 {
