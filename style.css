@@ -72,46 +72,43 @@ p {
     .child_image {
         display: block;
         margin: auto;
+        columns: 100px 2;
+        max-width: 600px;
     }
     .child_image img {
         text-align: center;
         margin: auto;
-        width: 600px;
+        width: 288px;
     }
     .child_image h2 {
         margin-bottom: 40px;
         font-size: 24px;
     }
     .store_loc h2 {
+        margin-top: 10px;
         font-size: 24px;
     }
     iframe {
         display: block;
         margin: auto;
-        width: 704px;
-        height: 402px;
+        width: 604px;
+        height: 302px;
     }
 }
 /* Desktop Rules */
 
 @media screen and (min-width: 1024px) {
     .child_image {
-        columns: 100px 2;
-        max-width: 620px;
+        columns: 100px 3;
+        max-width: 900px;
     }
     .child_image img {
         width: 288px;
     }
     .child_image h2 {
         margin-bottom: 30px;
-        font-size: 18px;
     }
     .store_loc h2 {
         margin-top: 30px;
-        font-size: 18px;
-    }
-    iframe {
-        width: 604px;
-        height: 302px;
     }
 }
